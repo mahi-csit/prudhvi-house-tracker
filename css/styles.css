@@ -15,8 +15,7 @@ body {
 }
 
 h1, h2 {
-    color: #4CAF50; /* Green color for headers */
-}
+    color: #4CAF50;
 
 .event-tracker, .points-tracker {
     background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity for readability */
