@@ -1,8 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Earth_from_Space.jpg/1200px-Earth_from_Space.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: #f0f0f0;
     color: #333;
     text-align: center;
     margin: 0;
@@ -14,8 +12,12 @@ body {
     min-height: 100vh;
 }
 
+h1, h2 {
+    color: #4CAF50;
+}
+
 .event-tracker, .points-tracker {
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity for readability */
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
